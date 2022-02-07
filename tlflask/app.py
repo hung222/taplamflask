@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def tnflask():
-    return "tnflask"
+    return "tnflask.html"
