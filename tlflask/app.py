@@ -11,9 +11,9 @@ app = Flask("my website")
  def giachoi(name):
     return "giachoi {}".format(name)
 
-@app.route("app.py/")
- def app.py():
-    return "app.py"
+@app.route("tnflask/")
+ def tnflask():
+    return "tnflask.html"
 
 
 
