@@ -7,13 +7,6 @@ app = Flask("my website")
  def giachoi():
    return "giachoi"
 
- @app.route("/giachoi/<string:name>")
- def giachoi(name):
-    return "giachoi {}".format(name)
-
-@app.route("tnflask/")
- def tnflask():
-    return "tnflask.html"
 
 
 
