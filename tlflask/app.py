@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("tnflask.html/")
+@app.route("tnflask/")
 def tnflas():
     return "tnflask.html"
